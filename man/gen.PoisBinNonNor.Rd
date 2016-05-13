@@ -42,11 +42,11 @@ variance.vec<-c(1,1)
 coef.mat=matrix(rep(c(0,1,0,0), each=2),4,2,byrow=T)
 corr.mat=matrix(0.4,6,6)
 diag(corr.mat)=1
-final.corr.mat=overall.corr.mat(n.P, n.B, n.C, lambda.vec, prop.vec, 
-coef.mat, corr.vec = NULL, corr.mat)
+final.corr.mat=overall.corr.mat(n.P,n.B,n.C,lambda.vec,prop.vec, 
+coef.mat,corr.vec=NULL,corr.mat)
 
-mymixdata=gen.PoisBinNonNor(n, n.P, n.B, n.C, lambda.vec, prop.vec, 
-mean.vec, variance.vec,coef.mat, final.corr.mat)
+mymixdata=gen.PoisBinNonNor(n,n.P,n.B,n.C,lambda.vec,prop.vec, 
+mean.vec,variance.vec,coef.mat,final.corr.mat)
 
 #Check marginals
 #apply(mymixdata,2,mean)
@@ -65,12 +65,10 @@ kurtosis.vec=c(6,-0.5455)
 coef.mat=fleishman.coef(2,skewness.vec, kurtosis.vec)
 corr.mat=matrix(0.3,6,6)
 diag(corr.mat)=1
-final.corr.mat=overall.corr.mat(n.P, n.B, n.N, lambda.vec, prop.vec,
-coef.mat,
-corr.vec = NULL, corr.mat)
-mymixdata=gen.PoisBinNonNor(n, n.P, n.B, n.N, lambda.vec, prop.vec,
-mean.vec, variance.vec,coef.mat,
-final.corr.mat)
+final.corr.mat=overall.corr.mat(n.P,n.B,n.N,lambda.vec,prop.vec,
+coef.mat,corr.vec=NULL,corr.mat)
+mymixdata=gen.PoisBinNonNor(n,n.P,n.B,n.N,lambda.vec,prop.vec,
+mean.vec, variance.vec,coef.mat,final.corr.mat)
 
 #Check marginals
 #apply(mymixdata,2,mean)[4:5] 

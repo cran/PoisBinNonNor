@@ -23,7 +23,9 @@ intermediate.corr.CC(n.P, n.B, n.C, coef.mat = NULL, corr.vec = NULL, corr.mat =
 \value{A correlation matrix of size n.C*n.C.}
 
 \references{Demirtas, H., Hedeker, D., and Mermelstein, R.J. (2012). Simulation of massive public health data by power polynomials. 
-Statistics in Medicine, 31(27), 3337-3346.}
+Statistics in Medicine, 31(27), 3337-3346.
+
+Vale, C.D. and Maurelli, V.A. (1983). Simulating multivariate nonnormal distributions. Psychometrika, 48(3), 465-471.}
 
 \seealso{\code{\link{intermediate.corr.PC}}, \code{\link{intermediate.corr.BC}}}
 
@@ -44,7 +46,7 @@ corr.mat=matrix(c(1.0,-0.3,-0.3,-0.3,-0.3,-0.3,
 -0.3,-0.3,0.5,0.7,1.0,0.9,
 -0.3,-0.3,0.6,0.8,0.9,1.0),6,byrow=TRUE)
 
-intmatCC=intermediate.corr.CC(n.P, n.B=0, n.C, coef.mat, corr.vec = NULL, corr.mat)
+intmatCC=intermediate.corr.CC(n.P,n.B=0,n.C,coef.mat,corr.vec=NULL,corr.mat)
 intmatCC
 }
 }

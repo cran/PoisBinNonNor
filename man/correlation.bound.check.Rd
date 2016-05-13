@@ -42,7 +42,7 @@ lambda.vec<-c(1)
 prop.vec<-c(0.3)
 coef.mat<-matrix(c(-0.3137491,0.8263239,0.3137491,0.0227066),4,1,byrow=F) 
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
-correlation.bound.check(n.P, n.B, n.C, lambda.vec, prop.vec, coef.mat, corr.vec = NULL, 
+correlation.bound.check(n.P,n.B,n.C,lambda.vec,prop.vec,coef.mat,corr.vec=NULL, 
 corr.mat)
 
 n.P<-2
@@ -57,7 +57,7 @@ coef.mat<-matrix(c(
  0.0227066, -0.0294495),4,2,byrow=F)  
 corr.mat=matrix(0.8,6,6)
 diag(corr.mat)=1
-correlation.bound.check(n.P, n.B, n.C, lambda.vec, prop.vec, coef.mat, corr.vec = NULL, 
+correlation.bound.check(n.P,n.B,n.C,lambda.vec,prop.vec,coef.mat,corr.vec=NULL, 
 corr.mat)
 }
 }

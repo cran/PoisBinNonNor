@@ -53,33 +53,33 @@ coef.mat<-matrix(c(
  0.0227066, -0.0294495, -0.0400078),4,3,byrow=F)  
 
 #Correlation limits among Poisson variables
-correlation.limits(n.P,n.B=0,n.C=0, lambda.vec,prop.vec=NULL,coef.mat=NULL)
+correlation.limits(n.P,n.B=0,n.C=0,lambda.vec,prop.vec=NULL,coef.mat=NULL)
 
 #See also Cor.PP.Limit in R package PoisNor 
 
 #Correlation limits among binary variables
-correlation.limits(n.P=0,n.B,n.C=0, lambda.vec=NULL,prop.vec,coef.mat=NULL)
+correlation.limits(n.P=0,n.B,n.C=0,lambda.vec=NULL,prop.vec,coef.mat=NULL)
 
 #See also correlation.limits in R package BinNonNor 
 
 #Correlation limits among continuous variables
-correlation.limits(n.P=0,n.B=0,n.C,lambda.vec=NULL, prop.vec=NULL, coef.mat)
+correlation.limits(n.P=0,n.B=0,n.C,lambda.vec=NULL,prop.vec=NULL,coef.mat)
 
 #Correlation limits among Poisson and binary variables and within themselves.
-correlation.limits(n.P,n.B,n.C=0,lambda.vec, prop.vec, coef.mat=NULL)
+correlation.limits(n.P,n.B,n.C=0,lambda.vec,prop.vec,coef.mat=NULL)
 
 #Correlation limits among Poisson and continuous variables and within themselves.
-correlation.limits(n.P,n.B=0,n.C,lambda.vec, prop.vec=NULL, coef.mat)
+correlation.limits(n.P,n.B=0,n.C,lambda.vec,prop.vec=NULL,coef.mat)
 
 #Correlation limits among binary and continuous variables and within themselves.
-correlation.limits(n.P=0,n.B,n.C,lambda.vec=NULL, prop.vec, coef.mat)
+correlation.limits(n.P=0,n.B,n.C,lambda.vec=NULL,prop.vec,coef.mat)
 
 #Correlation limits among Poisson, binary, and continuous variables and within themselves.
-correlation.limits(n.P,n.B,n.C,lambda.vec, prop.vec, coef.mat)
+correlation.limits(n.P,n.B,n.C,lambda.vec,prop.vec,coef.mat)
 
 n.P<-2
 lambda.vec=c(-1,1)
-correlation.limits(n.P,n.B=0,n.C=0, lambda.vec,prop.vec=NULL, coef.mat=NULL)
+correlation.limits(n.P,n.B=0,n.C=0,lambda.vec,prop.vec=NULL,coef.mat=NULL)
 
 }
 }

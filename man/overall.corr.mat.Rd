@@ -43,8 +43,8 @@ coef.mat<-matrix(c(0,1,0,0),4,1)
 corr.vec=NULL
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
 
-finalmat=overall.corr.mat(n.P, n.B, n.C, lambda.vec, prop.vec, coef.mat, 
-corr.vec = NULL, corr.mat)
+finalmat=overall.corr.mat(n.P,n.B,n.C,lambda.vec,prop.vec,coef.mat, 
+corr.vec=NULL,corr.mat)
 finalmat
 }
 }

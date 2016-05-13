@@ -24,11 +24,6 @@ kurtosis.vec=c(-1.2,6,8)
 validation.skewness.kurtosis(n.C,skewness.vec,kurtosis.vec)
 
 \dontrun{
-n.C<-3
-skewness.vec=c(0,2,3)
-kurtosis.vec=c(-1.2,6,8)
-validation.skewness.kurtosis(skewness.vec,kurtosis.vec)
-
 n.C<--1
 skewness.vec=c(0)
 kurtosis.vec=c(-1.2)
@@ -62,6 +57,6 @@ validation.skewness.kurtosis(n.C,skewness.vec,kurtosis.vec)
 
 skewness.vec=c(2,3)
 kurtosis.vec=c(1,5)
-validation.skewness.kurtosis(n.C,skewness.vec, kurtosis.vec)
+validation.skewness.kurtosis(n.C,skewness.vec,kurtosis.vec)
 }
 }

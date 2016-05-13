@@ -45,8 +45,8 @@ corr.mat=matrix(c(1.0,-0.3,-0.3,-0.3,-0.3,-0.3,
 -0.3,-0.3,0.5,0.7,1.0,0.9,
 -0.3,-0.3,0.6,0.8,0.9,1.0),6,byrow=TRUE)
 
-intmatBC=intermediate.corr.BC(n.P=0, n.B, n.C, lambda.vec=NULL, prop.vec, coef.mat, 
-corr.vec = NULL, corr.mat)
+intmatBC=intermediate.corr.BC(n.P=0,n.B,n.C,lambda.vec=NULL,prop.vec,coef.mat, 
+corr.vec=NULL,corr.mat)
 intmatBC
 
 n.B<-1
@@ -56,8 +56,8 @@ coef.mat=matrix(c(-0.31375,0.82632,0.31375,0.02271),4,1)
 corr.vec=NULL
 corr.mat=matrix(c(1,-0.3,-0.3,1),2,2)
 
-intmatBC=intermediate.corr.BC(n.P=0, n.B, n.C, lambda.vec=NULL, prop.vec, coef.mat, 
-corr.vec = NULL, corr.mat)
+intmatBC=intermediate.corr.BC(n.P=0,n.B,n.C,lambda.vec=NULL,prop.vec,coef.mat, 
+corr.vec=NULL,corr.mat)
 intmatBC
 }
 }

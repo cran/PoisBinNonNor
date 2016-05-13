@@ -26,7 +26,7 @@ coef.mat = NULL, corr.vec = NULL, corr.mat = NULL)}
 
 \references{
 Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
-marginals. Journal of Statistical Computation and Simulation. In press.
+marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.
 }
 
 \seealso{\code{\link{intermediate.corr.PP}}, \code{\link{intermediate.corr.BB}}}
@@ -40,8 +40,8 @@ lambda.vec<-c(2,3)
 prop.vec<-c(0.3)
 corr.mat=matrix(c(1,0.2,0.1,0.2,1,0.5,0.1,0.5,1),3,3)
 
-intmatPB=intermediate.corr.PB(n.P, n.B, n.C=0, lambda.vec, prop.vec, coef.mat=NULL, 
-corr.vec = NULL, corr.mat)
+intmatPB=intermediate.corr.PB(n.P,n.B,n.C=0,lambda.vec,prop.vec,coef.mat=NULL, 
+corr.vec=NULL,corr.mat)
 intmatPB
 }
 }

@@ -37,7 +37,7 @@ corr.mat=matrix(c(1.0,-0.3,-0.3,-0.3,-0.3,-0.3,
 -0.3,-0.3,0.5,0.7,1.0,0.9,
 -0.3,-0.3,0.6,0.8,0.9,1.0),6,by=TRUE)
 
-intmatBB=intermediate.corr.BB(n.P,n.B,n.C, prop.vec, corr.vec = NULL, corr.mat)
+intmatBB=intermediate.corr.BB(n.P,n.B,n.C,prop.vec,corr.vec=NULL,corr.mat)
 intmatBB
 }
 }
