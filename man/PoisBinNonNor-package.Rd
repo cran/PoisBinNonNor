@@ -10,8 +10,8 @@ of any nonnormal shape allowed by the Fleishman polynomials, taking the normal d
 \tabular{ll}{
 Package: \tab PoisBinNonNor\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2016-05-13\cr
+Version: \tab 1.2\cr
+Date: \tab 2018-01-02\cr
 License: \tab GPL-2 | GPL-3 \cr
 }
 The package consists of fourteen functions. The functions \code{\link{validation.bin}}, \code{\link{validation.corr}}, and 
@@ -31,7 +31,7 @@ first count variables, next binary variables, and then continuous variables shou
 
 \author{Gul Inan, Hakan Demirtas 
 
-Maintainer: Gul Inan <inanx002@umn.edu>}
+Maintainer: Gul Inan <ginan@metu.edu.tr>}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
 marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.
