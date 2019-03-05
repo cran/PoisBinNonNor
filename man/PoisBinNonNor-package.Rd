@@ -10,16 +10,16 @@ of any nonnormal shape allowed by the Fleishman polynomials, taking the normal d
 \tabular{ll}{
 Package: \tab PoisBinNonNor\cr
 Type: \tab Package\cr
-Version: \tab 1.2\cr
-Date: \tab 2018-01-02\cr
+Version: \tab 1.3\cr
+Date: \tab 2019-03-02\cr
 License: \tab GPL-2 | GPL-3 \cr
 }
 The package consists of fourteen functions. The functions \code{\link{validation.bin}}, \code{\link{validation.corr}}, and 
 \code{\link{validation.skewness.kurtosis}} validate the specified quantities. \code{\link{correlation.limits}} returns the lower and upper bounds of pairwise correlations of 
 Poisson, binary and continuous variables. \code{\link{correlation.bound.check}}
 validates pairwise correlation values.
-\code{\link{intermediate.corr.PP}}, \code{\link{intermediate.corr.BB}}, \code{\link{intermediate.corr.CC}},
-\code{\link{intermediate.corr.PB}}, \code{\link{intermediate.corr.PC}}, and \code{\link{intermediate.corr.BC}}
+\cr \code{\link{intermediate.corr.PP}}, \code{\link{intermediate.corr.BB}}, \code{\link{intermediate.corr.CC}}, 
+\cr \code{\link{intermediate.corr.PB}}, \code{\link{intermediate.corr.PC}}, and \code{\link{intermediate.corr.BC}} 
 compute intermediate correlation matrix for Poisson-Poisson combinations, binary-binary, 
 continuous-continuous, Poisson-binary, Poisson-continuous,
 binary-continuous combinations, respectively.  The function \code{\link{overall.corr.mat}} assembles 
@@ -29,9 +29,9 @@ Throughout the package, variables are supposed to be inputted in a certain order
 first count variables, next binary variables, and then continuous variables should be placed. 
 }
 
-\author{Gul Inan, Hakan Demirtas 
+\author{Gul Inan, Hakan Demirtas, Ran Gao 
 
-Maintainer: Gul Inan <ginan@metu.edu.tr>}
+Maintainer: Ran Gao <rgao8@uic.edu>}
 
 \references{Amatya, A. and Demirtas, H. (2015). Simultaneous generation of multivariate mixed data with Poisson and normal
 marginals. Journal of Statistical Computation and Simulation, (85)15, 3129-3139.

@@ -1,8 +1,8 @@
-c7ffa57aeb3c491dfa3dcc55dd5fc3ba *DESCRIPTION
+2594b3ff395aa60fb99c986cf56e2969 *DESCRIPTION
 66e52c05b846e098838273b9411517f1 *NAMESPACE
 c492c9ef5992e5114d21bb93518b3ed2 *R/correlation.bound.check.R
 cb4a970f39a4109aea6531d71c9afc95 *R/correlation.limits.R
-cf895b0b1d98a69a218e13e92a0df087 *R/fleishman.coef.R
+484cb40271457a7e83dedbafc2272f4a *R/fleishman.coef.R
 71cb267a88112d294f771289fbb4c8ec *R/gen.PoisBinNonNor.R
 df906940d8a79d9b099cba94d515bb5a *R/intermediate.corr.BB.R
 cdf0733e91ad95334a4545a8cd17c2bf *R/intermediate.corr.BC.R
@@ -14,10 +14,10 @@ b237294f6ed83f2a2c606644808c786e *R/overall.corr.mat.R
 589b500dc5a3231b94dac31c6f8fe5bd *R/validation.bin.R
 70b9e93af1f352cdde75f51cec4b4355 *R/validation.corr.R
 ebe772982d3bcbd00ab835bbfba0b551 *R/validation.skewness.kurtosis.R
-c021814963766ac4c6db41e7940257e0 *man/PoisBinNonNor-package.Rd
+4cf12d2e47a2f5b4cfdad828384a2961 *man/PoisBinNonNor-package.Rd
 b8c102ebc2af5970671fa2c4ce8f00bc *man/correlation.bound.check.Rd
 bf6350888790072f775e6b332110cf71 *man/correlation.limits.Rd
-67b4509e284145550a20b562bda8fcb2 *man/fleishman.coef.Rd
+8f70b1e7c8f86929a8c133d5efdfd6b9 *man/fleishman.coef.Rd
 d86685dc9b7ffefc9e502659e758a4e9 *man/gen.PoisBinNonNor.Rd
 45d7600bd495dddff74bd9848388f75c *man/intermediate.corr.BB.Rd
 687d14b75336925183949d73b2192d9f *man/intermediate.corr.BC.Rd

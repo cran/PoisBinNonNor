@@ -8,7 +8,7 @@ continuous variables.}
 \usage{fleishman.coef(n.C, skewness.vec = NULL, kurtosis.vec = NULL)}
 
 \arguments{
-  \item{n.C}{Number of continuous continuous variables.}
+  \item{n.C}{Number of continuous variables.}
   \item{skewness.vec}{Skewness vector for continuous variables.}
   \item{kurtosis.vec}{Kurtosis vector for continuous variables.}
 }
@@ -33,7 +33,7 @@ Fleishman, A.I. (1978). A method for simulating non-normal distributions. Psycho
 n.C<-4
 skewness.vec=c(2,0,-0.4677,0.6325)
 kurtosis.vec=c(6,-0.5455,-0.3750,0.6)
-coef.mat=fleishman.coef(n.CN,skewness.vec,kurtosis.vec)
+coef.mat=fleishman.coef(n.C,skewness.vec,kurtosis.vec)
 
 n.C<-1
 skewness.vec=c(0)
