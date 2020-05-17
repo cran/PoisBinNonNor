@@ -10,8 +10,8 @@ of any nonnormal shape allowed by the Fleishman polynomials, taking the normal d
 \tabular{ll}{
 Package: \tab PoisBinNonNor\cr
 Type: \tab Package\cr
-Version: \tab 1.3.1\cr
-Date: \tab 2019-05-16\cr
+Version: \tab 1.3.2\cr
+Date: \tab 2020-05-02\cr
 License: \tab GPL-2 | GPL-3 \cr
 }
 The package consists of fourteen functions. The functions \code{\link{validation.bin}}, \code{\link{validation.corr}}, and 
@@ -43,7 +43,3 @@ Demirtas, H., Hedeker, D., and Mermelstein, R.J. (2012). Simulation of massive p
 by power polynomials. Statistics in Medicine, 31(27), 3337-3346.
 }
 
-\keyword{concurrent generation of Poisson, binary and continuous variables}
-\keyword{generating multivariate Poisson variables}
-\keyword{generating multivariate binary variables}
-\keyword{generating multivariate continuous variables}
