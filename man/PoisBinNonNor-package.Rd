@@ -10,8 +10,8 @@ of any nonnormal shape allowed by the Fleishman polynomials, taking the normal d
 \tabular{ll}{
 Package: \tab PoisBinNonNor\cr
 Type: \tab Package\cr
-Version: \tab 1.3.2\cr
-Date: \tab 2020-05-02\cr
+Version: \tab 1.3.3\cr
+Date: \tab 2021-03-21\cr
 License: \tab GPL-2 | GPL-3 \cr
 }
 The package consists of fourteen functions. The functions \code{\link{validation.bin}}, \code{\link{validation.corr}}, and 
